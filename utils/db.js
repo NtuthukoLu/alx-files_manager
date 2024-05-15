@@ -31,3 +31,5 @@ class DBClient {
     return filesNum;
   }
 }
+const dbClient = new DBClient();
+module.exports = dbClient;
